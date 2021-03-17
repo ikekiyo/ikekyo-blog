@@ -41,7 +41,6 @@ const Post = ({ data }) => {
               <Img className={style.bannerImg} fluid={fluid} title={excerpt} alt={title} />
             </div>
             <article className={style.blogArticle} dangerouslySetInnerHTML={{ __html: html }} />
-            <Comment pageCanonicalUrl={canonicalUrl} pageId={title} />
           </div>
         </SidebarWrapper>
       </Layout>
