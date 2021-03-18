@@ -3,7 +3,6 @@ import {
   Affix, Layout, Row, Col,
 } from 'antd';
 import FA from 'react-fontawesome';
-import FeatherIcon from 'feather-icons-react';
 // eslint-disable-next-line import/no-extraneous-dependencies
 import { globalHistory } from '@reach/router';
 import style from './sidebar.module.less';
@@ -12,7 +11,7 @@ import Config from '../../../../config';
 
 const { Content } = Layout;
 const {
-  facebook, github, instagram, twitter,
+  github, twitter,
 } = Config.social;
 
 const DomContent = () => (
@@ -20,9 +19,7 @@ const DomContent = () => (
     <div className={style.profileAvatar} />
     <div className={`${style.name} centerAlign`}>
       <div className={`${style.boxName} centerAlign`}>
-        <h2>
-          <span>おけら</span>
-        </h2>
+        <span>おけら</span>
       </div>
       <div className={`${style.badge} ${style.badgeGray}`}>Software Engineer</div>
       <div className="centerAlign box">

@@ -64,6 +64,10 @@ module.exports = {
       description: 'A general purpose programming language that is widely used for developing various applications.',
       color: '#f9c646',
     },
-
+    flutter: {
+      name: 'flutter',
+      description: 'A general purpose programming language that is widely used for developing various applications.',
+      color: '#f9c646',
+    },
   },
 };
