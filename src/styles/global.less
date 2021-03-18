@@ -1,18 +1,17 @@
 @import (reference) './mixins.less';
 body{
   font-size: 15px;
+  line-height: 2;
 }
 h1, h2, h3, h4, h5, h6 {
     color: #44566C;
     font-weight: 600;
     line-height: 1.3;
-    margin-top: 0;
-    margin-bottom: 0.5em;
+    margin-top: 0.3em;
+    margin-bottom: 1.2em;
 }
 h1{
-    font-size: 1.875rem;
-	margin-bottom: 1.2rem;
-	
+  font-size: 1.875rem;
 	@media only screen and (max-width: 767px) {
 	  font-size: 1.7rem;
 	}
@@ -20,7 +19,9 @@ h1{
 h2 {
     font-size: 1.562rem;
 	margin-bottom: 1.4rem;
-	
+	padding: 0.7em 0em 0.6em;
+  margin-top: 3em;
+	border-bottom: 2px solid #dea08c;
 	@media only screen and (max-width: 767px) {
 	  font-size: 1.5rem;
 	  margin-bottom: 1.2rem;
@@ -29,17 +30,18 @@ h2 {
 h3 {
     font-size: 1.125rem;
 	margin-bottom: .85rem;
-	
+  padding: 0 .8em;
+  border-left: 5px solid #dea08c;
 	@media only screen and (max-width: 767px) {
 	  font-size: 1.1rem;
 	  margin-bottom: 1rem;
-	}  
-	
+	}
+
   }
 h4 {
     font-size: 1.1rem;
 	margin-bottom: .8rem;
-	
+
 	@media only screen and (max-width: 767px) {
 	  font-size: 1rem;
 	}
@@ -92,7 +94,7 @@ ul{
   position: absolute;
   color: rgba(0, 0, 0, 0.45);
   font-size: 12px;
-  line-height: 1;
+  line-height: 2;
   white-space: nowrap;
   text-align: left;
   vertical-align: middle;
@@ -105,11 +107,11 @@ ul{
     padding: 0.6rem;
   }
 }
-.container { 
+.container {
   max-width: 1264px;
   width:100%;
   margin-left: auto;
-  margin-right: auto 
+  margin-right: auto
 }
 .marginTopTitle{
   @media screen and (max-width: 768px){
@@ -132,4 +134,10 @@ ul{
 }
 .react-pdf__Document{
   background: lightslategray;
+}
+
+.postCard-module--postCard--3vov_ h3{
+	padding: 0;
+  margin-top: 0;
+	border: 0px solid #fff;
 }
