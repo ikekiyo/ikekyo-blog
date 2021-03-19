@@ -29,11 +29,6 @@ module.exports = {
       description: 'JavaScript is an object-oriented programming language used alongside HTML and CSS to give functionality to web pages.',
       color: '#f0da50',
     },
-    nodejs: {
-      name: 'Node.js',
-      description: 'Node.js is a tool for executing JavaScript in a variety of environments.',
-      color: '#90c53f',
-    },
     typescript: {
       name: 'typescript',
       description: 'TypeScript is a typed superset of JavaScript that compiles to plain JavaScript.',
@@ -48,16 +43,6 @@ module.exports = {
       name: 'Gatsby.js',
       description: 'A framework built over ReactJS to generate static page web application.  ',
       color: '#6f309f',
-    },
-    html: {
-      name: 'HTML',
-      description: 'A markup language that powers the web. All websites use HTML for structuring the content.',
-      color: '#dd3431',
-    },
-    css: {
-      name: 'css',
-      description: 'CSS is used to style the HTML element and to give a very fancy look for the web application.',
-      color: '#43ace0',
     },
     python: {
       name: 'python',
