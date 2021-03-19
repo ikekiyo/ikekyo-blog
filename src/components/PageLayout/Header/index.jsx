@@ -45,7 +45,7 @@ export default () => {
               <Link to="/tags" onClick={toggleMenu} activeClassName={style.anchorActive}>
                 Tags
               </Link>
-          </li>
+            </li>
           </ul>
         </div>
       </Layout>
